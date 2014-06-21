@@ -1,0 +1,16 @@
+This folder contains 3 parallel version of the LFM algorithm and one parallel version of the BMLPA algorithm.
+
+The BMLPA algorithm needs as parameters:
+-i network file 
+-on2c output file n2c 
+-oc2n output file c2n 
+-p threshold [0.1-1.0]
+
+The OpenMP and OpenCL LFM algortihms needs as parameters: 
+-f inputfilepath
+
+The OpenMP+MPI LFM algorithm needs as parameters
+-f inputfilepath
+-maxa max value of alpha that will be explored
+-mina starting value of alpha that will be explored
+-range step size
